@@ -19,3 +19,29 @@ h5 {
     color: white;
     font-style: bold;
 }
+
+#skills {
+    color: white;
+    background-color:  #ababb6;
+}
+
+#portfolio {
+    color: white;
+    background-color: #747488;
+}
+
+#about {
+    color: white;
+    background-color:  #E0E0E4;
+}
+
+#contact {
+    color: white;
+    background-color: #747488;
+}
+
+footer {
+    color: white;
+    background-color: #2f2d36;
+    padding: 20px 0;
+}
