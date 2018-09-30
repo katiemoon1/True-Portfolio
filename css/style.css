@@ -1,7 +1,7 @@
 /* Overall Styling */
-#navbar {
+/* #navbar {
 
-}
+} */
 
 section {
     padding: 150px 0;
@@ -46,7 +46,7 @@ h3 {
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-style: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #skill-set {
@@ -55,9 +55,14 @@ h3 {
     margin: 45px;
 }
 
+.rounded-circle {
+    background-color: #72b1b8;
+    padding: 15px;
+}
+
 .fas {
     font-size: 5rem;
-    color: #72b1b8;
+    color: white;
 }
 
 .fab {
@@ -71,11 +76,20 @@ h3 {
     background-color: #747488;
 }
 
+/* About Page Styling */
 #about {
     color: white;
     background-color:  #E0E0E4;
 }
 
+#projects {
+    color: white;
+    background-color: #72b1b8;
+    border-color: #72b1b8; 
+    margin: 5px;
+}
+
+/* Contact Page Styling */
 #contact {
     color: white;
     background-color: #747488;
@@ -87,10 +101,12 @@ button {
     border-color: #72b1b8;
 }
 
+/* Footer Styling */
 footer {
     color: white;
     background-color: #2f2d36;
     padding: 20px 0;
+    text-align: center;
 }
 
 #find-me {
