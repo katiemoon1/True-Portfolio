@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rufina" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Katie Moon Portfolio</title>
 </head>
@@ -32,8 +32,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h5>Katie Moon</h5>
-                <p>Full Stack Web Developer</p>
+                <h5 id="name">Katie Moon</h5>
+                <p id="title">Full Stack Web Developer</p>
             </div>
         </div>
     </div>
@@ -41,10 +41,10 @@
 <!-- Skills Section -->
 <section id="skills">
     <div class="container">
-        <div class="row" id="attributes">
+        <div class="row">
             <div class="col-12">
-                <h1>Attributes</h1>
-                <div class="row" id="char">
+                <h1 id="skills-header">Attributes</h1>
+                <div class="row border-top border-bottom border-light" id="skill-set">
                     <div class="col-3">
                         <h3>Analytical</h3>
                         <p><i class="fas fa-atom"></i></p>
@@ -53,36 +53,38 @@
                     <div class="col-3">
                         <h3>Innovator</h3>
                         <p><i class="fas fa-lightbulb"></i></p>
-                        <p></p>   
+                        <p>Being creative and finding improvements is a thrill for me.</p>   
                     </div>
                     <div class="col-3">
                         <h3>Concise</h3>
                         <p><i class="fas fa-feather-alt"></i></p>
-                        <p></p>    
+                        <p>The code I write is short, sweet, and to the point. No fluff here.</p>    
                     </div>
                     <div class="col-3">
                         <h3>Driven</h3>
                         <p><i class="fas fa-fire"></i></p>
-                        <p></p>    
+                        <p>I love setting goals and smashing them. My determined personality shines through with my work.</p>    
                     </div>
                 </div>
             </div>
         </div>   
         <div class="row">
             <div class="col-6">
-                <h4>Front End Experience</h4>
+                <h3>Front End Experience</h3>
                 <p>
                     <i class="fab fa-html5"></i>
                     <i class="fab fa-css3-alt"></i>
                     <i class="fab fa-js"></i>  
                 </p>
+                <button type="front end projects" class="btn">Projects -></button>
             </div>
             <div class="col-6">
-                <h4>Back End Experience</h4>
+                <h3>Back End Experience</h3>
                 <p>
                     <i class="fab fa-js"></i>
                     <i class="fab fa-node"></i>
                 </p>
+                <button type="back end projects" class="btn">Projects -></button>
             </div>
         </div>
     </div>
@@ -126,10 +128,10 @@
 <!-- Footer -->
 <footer>
     <p>
-        <a href="https://github.com/katiemoon1"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/kaitline-moon/"><i class="fab fa-linkedin"></i></a>
-        <a href=""><i class="fab fa-angellist"></i></a>
-        <a href="https://www.instagram.com/k8ymoon/"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/katiemoon1"><i class="fab fa-github" id="find-me"></i></a>
+        <a href="https://www.linkedin.com/in/kaitline-moon/"><i class="fab fa-linkedin" id="find-me"></i></a>
+        <a href=""><i class="fab fa-angellist" id="find-me"></i></a>
+        <a href="https://www.instagram.com/k8ymoon/"><i class="fab fa-instagram" id="find-me"></i></a>
     </p>
 </footer>
 

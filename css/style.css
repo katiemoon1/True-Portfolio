@@ -1,40 +1,71 @@
-body {
-    font-family: 'Noto Serif JP', sans-serif;
-    
-}
-
+/* Overall Styling */
 #navbar {
 
 }
 
 section {
-    padding: 350px 0;
+    padding: 150px 0;
 }
 
+/* Home Page Styling */
 #home {
    background-image: url("../images/peyto-home.JPG");
    background-size: cover;
    background-position: no-repeat;
-   color: white;
-   font-size: 1.5rem;
+   padding: 350px 0;
 }
 
-h5 {
+#name {
     font-size: 3rem;
     color: white;
     font-style: bold;
+    font-family: 'Rufina', serif;
 }
 
-#skills {
+#title {
+    font-family: 'Open Sans', sans-serif;
     color: white;
+    font-size: 1.5rem;
+}
+
+/* Skills Page Styling */
+#skills {
     background-color:  #ababb6;
     text-align: center;
 }
 
-.fas {
-    font-size: 5rem;
+#skills-header {
+    font-size: 3rem;
+    color: white;
+    font-style: bold;
+    font-family: 'Rufina', serif;
+    padding: 5px;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+#skill-set {
+    color: white;
+    padding: 40px;
+    margin: 45px;
+}
+
+.fas {
+    font-size: 5rem;
+    color: #72b1b8;
+}
+
+.fab {
+    font-size: 3rem;
+    color: white; 
+}
+
+/* Portfolio Page Styling */
 #portfolio {
     color: white;
     background-color: #747488;
@@ -60,4 +91,8 @@ footer {
     color: white;
     background-color: #2f2d36;
     padding: 20px 0;
+}
+
+#find-me {
+    font-size: 1.5rem;
 }
