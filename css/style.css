@@ -74,7 +74,16 @@ h3 {
 #portfolio {
     color: white;
     background-color: #747488;
+    font-style: bold;
+    font-family: 'Rufina', serif;
 }
+
+/* #projects {
+    color: white;
+    background-color: #72b1b8;
+    border-color: #72b1b8; 
+    margin: 5px;
+} */
 
 /* About Page Styling */
 #about {
@@ -82,12 +91,11 @@ h3 {
     background-color:  #E0E0E4;
 }
 
-#projects {
-    color: white;
-    background-color: #72b1b8;
-    border-color: #72b1b8; 
-    margin: 5px;
+#about-header {
+    font-style: bold;
+    font-family: 'Rufina', serif;
 }
+
 
 /* Contact Page Styling */
 #contact {
