@@ -1,10 +1,10 @@
 /* Overall Styling */
-/* #navbar {
-
-} */
+.nav-item {
+    font-family: 'Rufina', serif;
+}
 
 section {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 /* Home Page Styling */
@@ -16,30 +16,34 @@ section {
 }
 
 #name {
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     font-style: bold;
     font-family: 'Rufina', serif;
+    text-shadow: 2px 2px 5px #747488;
 }
 
 #title {
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.5rem;
+    text-shadow: 2px 2px 5px #747488;
 }
 
 /* Skills Page Styling */
 #skills {
+    flex: 0 auto;
     background-color:  #ababb6;
     text-align: center;
 }
 
 #skills-header {
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     font-style: bold;
     font-family: 'Rufina', serif;
     padding: 5px;
+    text-shadow: 2px 2px 5px #747488;
 }
 
 h3 {
@@ -54,6 +58,12 @@ h3 {
     padding: 40px;
     margin: 45px;
 }
+
+#experience {
+    font-style: bold;
+    font-family: 'Rufina', serif;
+}
+
 
 .rounded-circle {
     background-color: #72b1b8;
@@ -72,33 +82,41 @@ h3 {
 
 /* Portfolio Page Styling */
 #portfolio {
+    flex: 0 auto;
     color: white;
     background-color: #747488;
     font-style: bold;
     font-family: 'Rufina', serif;
 }
 
-/* #projects {
-    color: white;
-    background-color: #72b1b8;
-    border-color: #72b1b8; 
-    margin: 5px;
-} */
+#portfolio-header {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px #747488;
+    text-align: center;
+}
 
 /* About Page Styling */
 #about {
+    flex: 0 auto;
     color: white;
     background-color:  #E0E0E4;
 }
 
 #about-header {
+    font-size: 4rem;
     font-style: bold;
     font-family: 'Rufina', serif;
+    text-shadow: 2px 2px 5px #747488;
 }
 
+.rounded {
+    background-color: #72b1b8;
+    padding: 15px;
+}
 
 /* Contact Page Styling */
 #contact {
+    flex: 0 auto;
     color: white;
     background-color: #747488;
 }
@@ -107,6 +125,11 @@ button {
     color: white;
     background-color: #72b1b8;
     border-color: #72b1b8;
+}
+
+h4 {
+    font-style: bold;
+    font-family: 'Rufina', serif;
 }
 
 /* Footer Styling */
