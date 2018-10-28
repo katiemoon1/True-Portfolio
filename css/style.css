@@ -10,7 +10,10 @@ section {
 /* Home Page Styling */
 #home {
    background-image: url("../images/peyto-home.JPG");
+   height: 500px;
    background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
    background-position: no-repeat;
    padding: 350px 0;
    flex: 0 auto;
