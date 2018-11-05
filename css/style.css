@@ -1,4 +1,8 @@
 /* Overall Styling */
+body {
+    position: relative;
+}
+
 .nav-item {
     font-family: 'Rufina', serif;
 }
@@ -34,14 +38,14 @@ section {
     text-shadow: 2px 2px 5px #747488;
 }
 
-/* Skills Page Styling */
-#skills {
+/* Attribute Section Styling */
+#attributes {
     flex: 0 auto;
     background-color:  #ababb6;
     text-align: center;
 }
 
-#skills-header {
+#attribute-header {
     font-size: 4rem;
     color: white;
     font-style: bold;
@@ -57,7 +61,7 @@ h3 {
     font-size: 2rem;
 }
 
-#skill-set {
+#attribute-set {
     color: white;
     padding: 40px;
     margin: 45px;
@@ -67,7 +71,6 @@ h3 {
     font-style: bold;
     font-family: 'Rufina', serif;
 }
-
 
 .rounded-circle {
     background-color: #72b1b8;
@@ -84,7 +87,27 @@ h3 {
     color: white; 
 }
 
-/* Portfolio Page Styling */
+/* Skills Section Styling */
+#skills {
+    background-image: url("../images/lake-louise-me.JPG");
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: no-repeat;
+    padding: 350px 0;
+    flex: 0 auto;
+}
+
+#skills-header {
+    font-size: 4rem;
+    color: white;
+    font-style: bold;
+    font-family: 'Rufina', serif;
+    padding: 5px;
+    text-shadow: 2px 2px 5px #747488;
+}
+/* Portfolio Section Styling */
 #portfolio {
     flex: 0 auto;
     color: white;
@@ -99,7 +122,7 @@ h3 {
     text-align: center;
 }
 
-/* About Page Styling */
+/* About Section Styling */
 #about {
     flex: 0 auto;
     color: white;
@@ -118,7 +141,7 @@ h3 {
     padding: 15px;
 }
 
-/* Contact Page Styling */
+/* Contact Section Styling */
 #contact {
     flex: 0 auto;
     color: white;
