@@ -90,13 +90,14 @@ h3 {
 /* Skills Section Styling */
 #skills {
     background-image: url("../images/lake-louise-me.JPG");
-    height: 500px;
+    height: 400px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-position: no-repeat;
-    padding: 350px 0;
     flex: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
 
 #skills-header {
@@ -107,6 +108,7 @@ h3 {
     padding: 5px;
     text-shadow: 2px 2px 5px #747488;
 }
+
 /* Portfolio Section Styling */
 #portfolio {
     flex: 0 auto;
