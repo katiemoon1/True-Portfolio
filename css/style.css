@@ -109,6 +109,10 @@ h3 {
     text-shadow: 2px 2px 5px #747488;
 }
 
+#skills-logos {
+    background-color: rgba(113, 176, 183, 0.60)
+}
+
 /* Portfolio Section Styling */
 #portfolio {
     flex: 0 auto;
