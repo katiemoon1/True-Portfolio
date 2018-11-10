@@ -130,9 +130,14 @@ h3 {
 
 /* About Section Styling */
 #about {
+    background-image: url("../images/_MG_7523-Edit-web.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: no-repeat;
     flex: 0 auto;
     color: white;
-    background-color:  #E0E0E4;
+    /* background-color:  #E0E0E4; */
 }
 
 #about-header {
