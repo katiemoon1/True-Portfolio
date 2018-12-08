@@ -43,25 +43,25 @@
 <section id="attributes">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h1 id="attribute-header">Attributes</h1>
                 <div class="row border-top border-bottom border-light" id="attribute-set">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Analytical</h3>
                         <p class="rounded-circle"><i class="fas fa-atom"></i></p>
                         <p>My research background has honed a meticulous eye for solving problems.</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Innovative</h3>
                         <p class="rounded-circle"><i class="fas fa-lightbulb"></i></p>
                         <p>Being creative and finding improvements is a thrill for me.</p>   
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Concise</h3>
                         <p class="rounded-circle"><i class="fas fa-feather-alt"></i></p>
                         <p>The code I write is short, sweet, and to the point. No fluff here.</p>    
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Driven</h3>
                         <p class="rounded-circle"><i class="fas fa-fire"></i></p>
                         <p>I love setting goals and smashing them. My determined personality shines through with my work.</p>    
@@ -76,7 +76,7 @@
     <div class="container">
         <h1 id="skills-header">Skills</h1>
         <div class="row">
-            <div class="col-12 rounded-circle" id="skills-logos">
+            <div class="col-md-12 rounded-circle" id="skills-logos">
                 <p>
                     <i class="fab fa-html5"></i>
                     <i class="fab fa-css3-alt"></i>
@@ -100,13 +100,16 @@
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h2 id="portfolio-header">Recent Projects</h2>
                 <div class="card-columns">
                     <div class="card">
                         <a href="https://katiemoon1.github.io/Trivia-Game/">
-                        <img class="card-img" src="images/National-Park-Trivia.png" alt="National Park Trivia">
+                        <img class="card-img-top" src="images/National-Park-Trivia.png" alt="National Park Trivia">
                         </a>
+                        <!-- <div class="card-body">
+                            <p class="card-text"> A national park trivia game that utilizes HTML, CSS, JavaScript, jQuery and fun trivia questions!</p>
+                        </div> -->
                     </div>
                     <div class="card">
                         <a href="https://ice-cream-list.herokuapp.com/">
@@ -141,14 +144,15 @@
 </section>
 <!-- About Section -->
 <section id="about">
-    <div class="container">
+    <div class="container mx-auto d-flex">
+            <!-- <div class="carousel-inner">
+                    <div class="active item one"></div>
+                    <div class="item two"></div>
+                    <div class="item three"></div>
+                    <div class="item four"></div>
+                </div> -->
         <div class="row">
-            <!-- <div class="col-4 text-center">
-                <div class="card">
-                    <img class="card-img" src="images/_MG_7523-Edit-web.jpg" alt="Me">
-                </div>
-            </div> -->
-            <div class="col-4 text-center rounded">
+            <div id="about-me" class="col-lg-4 col-md-12 col-xs-12 text-center rounded">
                 <h2 id="about-header">Nice to meet you!</h2>
                 <h4>Background:</h4>
                 <p> My background in chemistry has taught me how to be completely curious and creative with problems. Lab work, while hard, can be extremely fruitful if you push through the challenges. Thankfully, I can pull upon those struggles to view troubleshooting as a blessing and learning experience.</p>
@@ -157,8 +161,13 @@
                 <p>P.S. If I am not working, you can find me in the mountains, eating ice cream, or drinking coffee. Or reading books. I love books.</p>
             </div>
         </div>
+        <!-- <div class="row">
+            <div id="about-me-2" class="col-xs-12 d-flex align-content-center rounded">
+                <h4>Hello there!</h4>
+                <p>I love coffee, reading, hiking and programming of course.</p>
+            </div>
+        </div> -->
     </div>
-
 </section>
 <!-- Contact Section -->
 <section id="contact">
@@ -200,8 +209,9 @@
 </footer>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="javascript/app.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript/app.js"></script>
 </body>
 </html>

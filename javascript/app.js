@@ -12,6 +12,8 @@ $("nav").find("a").click(function (event) {
 // Highlights the menu item that corresponds to the section when the section is being viewed
 $('body').scrollspy({ target: '#navigation' })
 
-
+// Starts the carousel of images for my about me section
+$(".carousel").carousel({ interval: 7000 })
 
 })
+
