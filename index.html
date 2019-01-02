@@ -31,7 +31,7 @@
 <!-- Home page -->
 <div class="container-fluid" id="home">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-5">
             <h5 id="name">Katie Moon</h5>
             <p id="title">Full Stack Developer</p>
         </div>
@@ -52,12 +52,12 @@
                     <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Innovative</h3>
                         <p class="rounded-circle"><i class="fas fa-lightbulb"></i></p>
-                        <p>Being creative and finding improvements is a thrill for me.</p>   
+                        <p>Being creative and finding improvements is a thrill for me!</p>   
                     </div>
                     <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Concise</h3>
                         <p class="rounded-circle"><i class="fas fa-feather-alt"></i></p>
-                        <p>The code I write is short, sweet, and to the point. No fluff here.</p>    
+                        <p>The code I write is short, sweet, and to the point. No fluff here!</p>    
                     </div>
                     <div class="col-lg-3 col-md-6 col-s-12">
                         <h3>Driven</h3>
@@ -100,40 +100,48 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 id="portfolio-header">Recent Projects</h2>
-                <div class="card-columns">
-                    <div class="card">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <a href="https://ice-cream-list.herokuapp.com/"></a>
+                        <img src="./images/ice-cream-database.png" class="d-block w-100" alt="Ice Cream Database">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ice Cream Database!</h5>
+                            <p>A fun little database that allows the user to add and eat ice cream!</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
                         <a href="https://katiemoon1.github.io/Trivia-Game/">
-                        <img class="card-img-top" src="images/National-Park-Trivia.png" alt="National Park Trivia">
+                        <img src="./images/National-Park-Trivia.png" class="d-block w-100" alt="National Park Trivia">
                         </a>
-                        <!-- <div class="card-body">
-                            <p class="card-text"> A national park trivia game that utilizes HTML, CSS, JavaScript, jQuery and fun trivia questions!</p>
-                        </div> -->
-                    </div>
-                    <div class="card">
-                        <a href="https://ice-cream-list.herokuapp.com/">
-                        <img class="card-img" src="images/ice-cream-database.png" alt="Ice Cream Database">
-                        </a>
-                    </div>
-                    <div class="card">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>National Park Trivia!</h5>
+                            <p>Just as the name states, it is National Park trivia!</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
                         <a href="https://katiemoon1.github.io/tdjStressRelief/">
-                        <img class="card-img" src="images/Stress-Relief.png" alt="Trivia and Dad Joke Stress Relief">
+                        <img src="./images/Stress-Relief.png" class="d-block w-100" alt="Stress Relief Game">
                         </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Trivia/Dad Joke Stress Relief!</h5>
+                            <p>Answer trivia and be rewarded with a gif and a Dad joke.</p>
+                        </div>
+                        </div>
                     </div>
-                </div>
-            <div class="card-deck">
-                <div class="card">
-                    <a href="https://katiemoon1.github.io/GifTastic-Giphy-Flexbox-Edition/">
-                    <img class="card-img" src="images/giftastic-Giphy-Flexbox.png" alt="Giftastic Giphy">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
                     </a>
-                </div>
-                <div class="card">
-                    <a href="https://katiemoon1.github.io/Psychic-Game/">
-                    <img class="card-img" src="images/Psychic-Game.png" alt="Psychic Game">
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://katiemoon1.github.io/Rustic-Pupper-Slideshow/">
-                    <img class="card-img" src="images/pupper-slideshow.png" alt="Rustic Pupper Slideshow">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
                     </a>
                 </div>
             </div>
@@ -143,12 +151,6 @@
 <!-- About Section -->
 <section id="about">
     <div class="container mx-auto d-flex">
-            <!-- <div class="carousel-inner">
-                    <div class="active item one"></div>
-                    <div class="item two"></div>
-                    <div class="item three"></div>
-                    <div class="item four"></div>
-                </div> -->
         <div class="row">
             <div id="about-me" class="col-lg-5 col-md-12 col-xs-12 text-center rounded">
                 <h2 id="about-header">Nice to meet you!</h2>
@@ -159,12 +161,6 @@
                 <p>P.S. If I am not working, you can find me in the mountains, eating ice cream, or drinking coffee. Or reading books. I love books.</p>
             </div>
         </div>
-        <!-- <div class="row">
-            <div id="about-me-2" class="col-xs-12 d-flex align-content-center rounded">
-                <h4>Hello there!</h4>
-                <p>I love coffee, reading, hiking and programming of course.</p>
-            </div>
-        </div> -->
     </div>
 </section>
 <!-- Contact Section -->
