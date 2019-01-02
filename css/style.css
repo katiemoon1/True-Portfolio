@@ -1,6 +1,8 @@
 /* Overall Styling */
-body {
+body,
+html {
     position: relative;
+    height: 100%;
 }
 
 .nav-item {
@@ -14,11 +16,10 @@ section {
 /* Home Page Styling */
 #home {
    background-image: url("../images/peyto-home.JPG");
-   height: 500px;
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
-   background-position: no-repeat;
+   background-repeat: no-repeat;
    padding: 350px 0;
    flex: 0 auto;
 }
@@ -90,14 +91,15 @@ h3 {
 /* Skills Section Styling */
 #skills {
     background-image: url("../images/lake-louise-me.JPG");
-    height: 400px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-position: no-repeat;
+    background-repeat: no-repeat;
     flex: 0 auto;
     text-align: center;
     justify-content: center;
+    position: relative;
+    height: 100%;
 }
 
 #skills-header {
@@ -131,11 +133,10 @@ h3 {
 /* About Section Styling */
 #about {
     background-image: url("../images/IMG_7523-Edit-web.jpg");
-    height: 700px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-position: no-repeat;
+    background-repeat: no-repeat;
     flex: 0 auto;
     text-align: center;
     justify-content: center;
