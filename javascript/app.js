@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
 // On click function for scrolling to different sections on the page
-$("nav").find("a").click(function (event) {
+$("nav").find("a").click( event => {
     event.preventDefault()
     var section = $(this).attr("href")
     $("html, body").animate({
@@ -18,6 +18,6 @@ $(".carousel").carousel({ interval: 7000 })
 })
 
 // Loading spinner
-window.onload = function() {
-    document.getElementById('loading').style.display = 'none'
+window.onload = () => {
+    document.getElementById('loading').fadeOut('slow')
 }
