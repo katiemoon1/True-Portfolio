@@ -15,9 +15,11 @@ $('body').scrollspy({ target: '#navigation' })
 // Starts the carousel of images for my about me section
 $(".carousel").carousel({ interval: 7000 })
 
+// Loading spinner
+$(window).on('load', function() {
+    $('#loading').fadeOut('slow', function() {
+        $(this).remove()
+    })
 })
 
-// Loading spinner
-window.onload = () => {
-    document.getElementById('loading').fadeOut('slow')
-}
+})
