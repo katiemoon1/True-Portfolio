@@ -164,20 +164,6 @@ h3 {
 }
 
 /* About Section Styling */
-#about {
-    /* background-image: url("../images/IMG_7523-Edit-web.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* background-color: white;
-    flex: 0 auto;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    position: relative; */
-}
-
 #headshot {
   display: flex;
   justify-content: center;
