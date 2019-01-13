@@ -17,3 +17,7 @@ $(".carousel").carousel({ interval: 7000 })
 
 })
 
+// Loading spinner
+window.onload = function() {
+    document.getElementById('loading').style.display = 'none'
+}
