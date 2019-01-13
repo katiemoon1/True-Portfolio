@@ -18,7 +18,7 @@
         </div>
     </div>
 <!-- Navigation Bar -->
-<nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-aos="fade-in">
     <a class="navbar-brand" href="#home"><i class="far fa-moon"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,8 +38,8 @@
 <div class="container-fluid" id="home" title="home">
     <div class="row">
         <div class="col-md-5">
-            <h5 id="name">Katie Moon</h5>
-            <p id="title">Full Stack Developer</p>
+            <h5 id="name" data-aos="fade-up">Katie Moon</h5>
+            <p id="title" data-aos="fade-up">Full Stack Developer</p>
         </div>
     </div>
 </div>
@@ -48,24 +48,24 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 id="attribute-header">Attributes</h1>
+                <h1 id="attribute-header" data-aos="fade-in">Attributes</h1>
                 <div class="row border-top border-bottom border-light" id="attribute-set">
-                    <div class="col-lg-3 col-md-6 col-s-12">
+                    <div class="col-lg-3 col-md-6 col-s-12" data-aos="fade-up">
                         <h3>Analytical</h3>
                         <p class="rounded-circle"><i class="fas fa-atom"></i></p>
                         <p>My research background has honed a meticulous eye for solving problems.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-s-12">
+                    <div class="col-lg-3 col-md-6 col-s-12" data-aos="fade-up">
                         <h3>Innovative</h3>
                         <p class="rounded-circle"><i class="fas fa-lightbulb"></i></p>
                         <p>Being creative and finding improvements is a thrill for me!</p>   
                     </div>
-                    <div class="col-lg-3 col-md-6 col-s-12">
+                    <div class="col-lg-3 col-md-6 col-s-12" data-aos="fade-up">
                         <h3>Concise</h3>
                         <p class="rounded-circle"><i class="fas fa-feather-alt"></i></p>
                         <p>The code I write is short, sweet, and to the point. No fluff here!</p>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-s-12">
+                    <div class="col-lg-3 col-md-6 col-s-12" data-aos="fade-up">
                         <h3>Driven</h3>
                         <p class="rounded-circle"><i class="fas fa-fire"></i></p>
                         <p>I love setting goals and smashing them. My determined personality shines through with my work.</p>    
@@ -77,24 +77,27 @@
 </section>
 <!-- Skills Section -->
 <section id="skills" title="skills">
-    <div class="container">
+    <div class="container" data-aos="fade-in">
         <h1 id="skills-header">Skills</h1>
         <div class="row">
-            <div class="col-md-12 rounded-circle" id="skills-logos">
-                <p>
+            <div class="col-md-12" id="skills-logos">
+                <p data-aos="fade-up">
                     <i class="fab fa-html5"></i>
                     <i class="fab fa-css3-alt"></i>
                     <img class="jQuery" src="images/tiny-jQuery.png" alt="jQuery logo">
                     <i class="fab fa-js"></i>
                     <i class="fab fa-node"></i> 
                 </p>
-                <p>
+                <p data-aos="fade-up">
                     <img class="sql" src="images/sql-file-format-symbol.png" alt="sql logo" width="50px" height="50px">
                     <img class="boostrap" src="images/bootstrap-solid.svg" alt="bootstrap logo" width="50px" height="50px">
                     <img class="api" src="images/api.png" alt="api" width="50px" height="50px">
                     <img class="shopify" src="images/shopify_glyph.svg" alt="shopify" width="50px" height="50px">
                     <img class="wordpress" src="images/wordpress-square-logo.png" alt="wordpress logo" width="50px" height="50px">
                     <i class="fab fa-npm"></i>
+                </p>
+                <p data-aos="fade-up">
+                    <i class="fab fa-react"></i>
                 </p>
             </div>
         </div>
@@ -105,50 +108,53 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="portfolio-header">Recent Projects</h2>
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <a href="https://ice-cream-list.herokuapp.com/"></a>
-                        <img src="./images/ice-cream-database.png" class="d-block w-100" alt="Ice Cream Database">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Ice Cream Database!</h5>
-                            <p>A fun little database that allows the user to add and eat ice cream!</p>
-                        </div>
-                        </div>
-                        <div class="carousel-item">
-                        <a href="https://katiemoon1.github.io/Trivia-Game/">
-                        <img src="./images/National-Park-Trivia.png" class="d-block w-100" alt="National Park Trivia">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>National Park Trivia!</h5>
-                            <p>Just as the name states, it is National Park trivia!</p>
-                        </div>
-                        </div>
-                        <div class="carousel-item">
-                        <a href="https://katiemoon1.github.io/tdjStressRelief/">
-                        <img src="./images/Stress-Relief.png" class="d-block w-100" alt="Stress Relief Game">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Trivia/Dad Joke Stress Relief!</h5>
-                            <p>Answer trivia and be rewarded with a gif and a Dad joke.</p>
-                        </div>
+                <h2 id="portfolio-header" data-aos="fade-in">Recent Projects</h2>
+                <div class="card-deck">
+                    <div class="card border-dark" style="width: 18rem;" data-aos="fade-up">
+                        <a href="https://justatestytest.herokuapp.com/"><img src="./images/friend-finder-app.png" class="card-img-top" alt="friend-finder"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Friend Finder!</h5>
+                            <p class="card-text">Technologies: Express, HTML, CSS, jQuery, Javascript, Node</p>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="card border-dark" style="width: 18rem;" data-aos="fade-up">
+                        <a href="https://ice-cream-list.herokuapp.com/"><img src="./images/ice-cream-database.png" class="card-img-top" alt="friend-finder"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Ice Cream Database!</h5>
+                            <p class="card-text">Technologies: Express, Handlebars, MySQL, Javascript, Node</p>
+                    </div>
+                    </div>
+                    <div class="card border-dark" style="width: 18rem;" data-aos="fade-up">
+                        <a href="https://katiemoon1.github.io/Trivia-Game/#"><img src="./images/national-park-trivia.png" class="card-img-top" alt="friend-finder"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">National Park Trivia!</h5>
+                            <p class="card-text">Technologies: Javascript, jQuery</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card-deck">
+                    <div class="card border-dark" style="width: 18rem;" data-aos="fade-up">
+                        <a href="https://katiemoon1.github.io/Psychic-Game/"><img src="./images/psychic-letter-game.png" class="card-img-top" alt="friend-finder"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Psychic Guessing Game!</h5>
+                            <p class="card-text">Technologies: HTML, CSS, Javascript</p>
+                        </div>
+                    </div>
+                    <div class="card border-dark" style="width: 18rem;" data-aos="fade-up">
+                        <a href="https://katiemoon1.github.io/unit-4-game/"><img src="./images/crystal-collector.png" class="card-img-top" alt="friend-finder"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Crystal Collector!</h5>
+                            <p class="card-text">Technologies: HTML, CSS, jQuery</p>
+                    </div>
+                    </div>
+                    <div class="card border-dark" style="width: 18rem;" data-aos="fade-up">
+                        <a href="https://dont-give-up-the-dream-corp.github.io/tdjStressRelief/"><img src="./images/stress-relief.png" class="card-img-top" alt="friend-finder"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Stress Relief Game!</h5>
+                            <p class="card-text">Technologies: HTML, CSS, API, Javascript, jQuery</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,20 +162,17 @@
 </section>
 <!-- About Section -->
 <section id="about" title="about">
-    <div class="container mx-auto d-flex">
-        <div class="row" style="margin: auto">
-            <div class="card" style="width: 30rem;">
-                <img src="./images/IMG_7523-Edit-web.jpg" class="card-img-top" alt="headshot">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+    <div class="container mx-auto">
+        <div id="headshot" data-aos="fade-in">
+            <img  src="./images/professional.jpg" alt="professional">
+            <!-- <img src="./images/IMG_7547-web.jpg" alt="laughing"> -->
         </div>
+        <h4 id="about-header" data-aos="fade-up">Hi! I'm Katie! Nice to meet you!</h3>
     </div>
 </section>
 <!-- Contact Section -->
 <section id="contact" title="contact">
-    <div class="container mx-auto">
+    <div class="container mx-auto" data-aos="fade-in">
         <div class="row">
             <div class="col-lg-4 col-md-4"></div>
             <div class="col-lg-4 col-sm-12">
