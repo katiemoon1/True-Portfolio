@@ -230,9 +230,11 @@ footer {
 /* @media all and (max-width: 768px) {
     #about #about-me{display:none}
     #about{height:700px} #about-me-2{display:inline-block}
-}
+} */
 
 @media all and (max-width: 425px) {
-    #about #about-me{display:none}
-    #about{height:700px} #about-me-2{display:inline-block}
-} */
+    #card-holder {
+        padding: 1rem;
+        margin: 1rem -15px 0;
+    }
+}
