@@ -133,6 +133,8 @@ h3 {
 
 #skills-logos {
     background-color: rgba(113, 176, 183, 0.60);
+    padding: 1rem;
+    margin: 0!important
 }
 
 /* Portfolio Section Styling */
@@ -152,15 +154,20 @@ h3 {
 
 .card-title {
     color: black;
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif
 }
 
 .card-text {
-    color: black
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card {
-    perspective: 100px
+    perspective: 100px;
+    margin: 1rem
 }
 
 /* About Section Styling */
