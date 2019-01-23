@@ -171,37 +171,23 @@ h3 {
 }
 
 /* About Section Styling */
-#headshot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-#headshot img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
-#about-header {
-    font-size: 4rem;
-    font-style: bold;
-    font-family: 'Rufina', serif;
-    text-shadow: 2px 2px 5px #747488;
+#about {
     text-align: center
 }
 
-.rounded {
-    background-color: #72b1b8;
-    padding: 15px;
+#me {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    margin-bottom: 1rem
 }
 
-#about-me-2 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#me img {
+    border-radius: 50%;
+    border: 1px solid #2f2d36
 }
+
 
 /* Contact Section Styling */
 #contact {
