@@ -225,20 +225,39 @@ footer {
     #about #about-me{display:none}
     #about{height:700px} #about-me-2{display:inline-block}
 } */
-
+/* extra large devices */
 @media screen and (max-width: 1200px) {
   #home {
-    background-image: url("../images/peyto-home-1200.jpeg");
+    background-image: url("../images/peyto-home.JPG");
   }
 }
 
-@media screen and (max-width: 576px) {
+/* large screens */
+@media screen and (max-width: 992px) {
   #home {
     background-image: url("../images/peyto-home-1200.jpeg");
   }
 }
 
+/* tablets */
+@media screen and (max-width: 768px) {
+  #home {
+    background-image: url("../images/peyto-home-1200.jpeg");
+  }
+}
+
+/* small devices */
+@media screen and (max-width: 576px) {
+  #home {
+    background-image: url("../images/peyto-home-768.jpeg");
+  }
+}
+/* small devices */
 @media all and (max-width: 425px) {
+  #home {
+    background-image: url("../images/peyto-home-768.jpeg");
+  }
+
   #card-holder {
     padding: 1rem;
     margin: 1rem -15px 0;
