@@ -1,9 +1,9 @@
 /* Overall Styling */
 body,
 html {
-    position: relative;
-    height: 100%;
-    scroll-behavior: smooth
+  position: relative;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 /* #loading {
@@ -24,199 +24,200 @@ html {
 } */
 
 .nav-item {
-    font-family: 'Rufina', serif;
+  font-family: "Rufina", serif;
 }
 
 section {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 /* Home Page Styling */
 #home {
-   background-image: url("../images/peyto-home.JPG");
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   padding: 350px 0;
-   flex: 0 auto;
+  background-image: url("../images/peyto-home.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 350px 0;
+  flex: 0 auto;
 }
 
-#name {
-    font-size: 4rem;
-    color: white;
-    font-style: bold;
-    font-family: 'Rufina', serif;
-    text-shadow: 2px 2px 5px #747488;
-    padding-left: inherit
+.name {
+  font-size: 4rem;
+  color: white;
+  font-style: bold;
+  font-family: "Rufina", serif;
+  text-shadow: 2px 2px 5px #747488;
+  text-align: center;
+  /* padding-left: inherit; */
 }
 
-#title {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 1.5rem;
-    text-shadow: 2px 2px 5px #747488;
-    padding-left: inherit
+.title {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px #747488;
+  text-align: center;
+  /* padding-left: inherit; */
 }
 
 /* Attribute Section Styling */
 #attributes {
-    flex: 0 auto;
-    background-color:  #ababb6;
-    text-align: center;
+  flex: 0 auto;
+  background-color: #ababb6;
+  text-align: center;
 }
 
 #attribute-header {
-    font-size: 4rem;
-    color: white;
-    font-style: bold;
-    font-family: 'Rufina', serif;
-    padding: 5px;
-    text-shadow: 2px 2px 5px #747488;
+  font-size: 4rem;
+  color: white;
+  font-style: bold;
+  font-family: "Rufina", serif;
+  padding: 5px;
+  text-shadow: 2px 2px 5px #747488;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-style: bold;
-    font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-style: bold;
+  font-size: 2rem;
 }
 
 #attribute-set {
-    color: white;
-    padding: 40px;
-    margin: 45px;
+  color: white;
+  padding: 40px;
+  margin: 45px;
 }
 
 #experience {
-    font-style: bold;
-    font-family: 'Rufina', serif;
+  font-style: bold;
+  font-family: "Rufina", serif;
 }
 
 .rounded-circle {
-    background-color: #72b1b8;
-    padding: 15px;
+  background-color: #72b1b8;
+  padding: 15px;
 }
 
 .fas {
-    font-size: 5rem;
-    color: white;
+  font-size: 5rem;
+  color: white;
 }
 
 .fab {
-    font-size: 3rem;
-    color: white; 
+  font-size: 3rem;
+  color: white;
 }
 
 /* Skills Section Styling */
 #skills {
-    background-image: url("../images/lake-louise-me.JPG");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    flex: 0 auto;
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
+  background-image: url("../images/lake-louise-me.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 0 auto;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
 }
 
 #skills-header {
-    font-size: 4rem;
-    color: white;
-    font-style: bold;
-    font-family: 'Rufina', serif;
-    padding: 5px;
-    text-shadow: 2px 2px 5px #747488;
+  font-size: 4rem;
+  color: white;
+  font-style: bold;
+  font-family: "Rufina", serif;
+  padding: 5px;
+  text-shadow: 2px 2px 5px #747488;
 }
 
 #skills-logos {
-    background-color: rgba(113, 176, 183, 0.60);
-    padding: 1rem;
-    margin: 0!important
+  background-color: rgba(113, 176, 183, 0.6);
+  padding: 1rem;
+  margin: 0 !important;
 }
 
 /* Portfolio Section Styling */
 #portfolio {
-    flex: 0 auto;
-    color: white;
-    background-color: #747488;
-    font-style: bold;
-    font-family: 'Rufina', serif;
+  flex: 0 auto;
+  color: white;
+  background-color: #747488;
+  font-style: bold;
+  font-family: "Rufina", serif;
 }
 
 #portfolio-header {
-    font-size: 4rem;
-    text-shadow: 2px 2px 5px #747488;
-    text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px #747488;
+  text-align: center;
 }
 
 .card-title {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 
 .card-text {
-    color: black;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .card {
-    perspective: 100px;
-    margin: 1rem
+  perspective: 100px;
+  margin: 1rem;
 }
 
 /* About Section Styling */
 #about {
-    text-align: center
+  text-align: center;
 }
 
 #me {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    overflow: hidden;
-    margin-bottom: 1rem
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 #me img {
-    border-radius: 50%;
-    border: 1px solid #2f2d36
+  border-radius: 50%;
+  border: 1px solid #2f2d36;
 }
-
 
 /* Contact Section Styling */
 #contact {
-    flex: 0 auto;
-    color: white;
-    background-color: #747488;
+  flex: 0 auto;
+  color: white;
+  background-color: #747488;
 }
 
 button {
-    color: white;
-    background-color: #72b1b8;
-    border-color: #72b1b8;
+  color: white;
+  background-color: #72b1b8;
+  border-color: #72b1b8;
 }
 
 h4 {
-    font-style: bold;
-    font-family: 'Rufina', serif;
+  font-style: bold;
+  font-family: "Rufina", serif;
 }
 
 /* Footer Styling */
 footer {
-    color: white;
-    background-color: #2f2d36;
-    padding: 20px 0;
-    text-align: center;
+  color: white;
+  background-color: #2f2d36;
+  padding: 20px 0;
+  text-align: center;
 }
 
 #find-me {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* Media Queries */
@@ -225,9 +226,21 @@ footer {
     #about{height:700px} #about-me-2{display:inline-block}
 } */
 
+@media screen and (max-width: 1200px) {
+  #home {
+    background-image: url("../images/peyto-home-1200.jpeg");
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #home {
+    background-image: url("../images/peyto-home-1200.jpeg");
+  }
+}
+
 @media all and (max-width: 425px) {
-    #card-holder {
-        padding: 1rem;
-        margin: 1rem -15px 0;
-    }
+  #card-holder {
+    padding: 1rem;
+    margin: 1rem -15px 0;
+  }
 }
