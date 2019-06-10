@@ -26,11 +26,11 @@
   </head>
 
   <body data-spy="scroll" data-target="#navigation" data-offset="20">
-    <div id="loading" class="d-flex justify-content-center">
+    <!-- <div id="loading" class="d-flex justify-content-center">
       <div class="spinner-border" role="status">
         <span class="sr-only">Loading...</span>
       </div>
-    </div>
+    </div> -->
     <!-- Navigation Bar -->
     <nav
       id="navigation"
@@ -58,7 +58,7 @@
             >Home <span class="sr-only">(current)</span></a
           >
           <a class="nav-item nav-link" href="#attributes">Attributes</a>
-          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <!-- <a class="nav-item nav-link" href="#skills">Skills</a> -->
           <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
           <a class="nav-item nav-link" href="#about">About</a>
           <a class="nav-item nav-link" href="#contact">Contact</a>
@@ -70,7 +70,7 @@
       <div class="row">
         <div class="col-md-12">
           <h5 class="name" data-aos="fade-up">Katie Moon</h5>
-          <p class="title" data-aos="fade-up">Full Stack Developer</p>
+          <p class="title" data-aos="fade-up">Intuitive Front-End Developer</p>
         </div>
       </div>
     </div>
@@ -79,7 +79,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 id="attribute-header" data-aos="fade-in">Attributes</h1>
+            <p id="attribute-header" data-aos="fade-in">
+              Attributes
+            </p>
             <div
               class="row border-top border-bottom border-light"
               id="attribute-set"
@@ -120,75 +122,82 @@
       </div>
     </section>
     <!-- Skills Section -->
-    <section id="skills" title="skills">
+    <!-- <section id="skills" title="skills">
       <div class="container" data-aos="fade-in">
-        <h1 id="skills-header">Skills</h1>
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6" id="skills-logos">
-            <div data-aos="fade-up">
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <img
-                class="jQuery"
-                src="images/tiny-jQuery.png"
-                alt="jQuery logo"
-              />
-              <i class="fab fa-js"></i>
-              <i class="fab fa-node"></i>
-            </div>
-            <div data-aos="fade-up">
-              <img
-                class="sql"
-                src="images/sql-file-format-symbol.png"
-                alt="sql logo"
-                width="50px"
-                height="50px"
-              />
-              <img
-                class="boostrap"
-                src="images/bootstrap-solid.svg"
-                alt="bootstrap logo"
-                width="50px"
-                height="50px"
-              />
-              <img
-                class="api"
-                src="images/api.png"
-                alt="api"
-                width="50px"
-                height="50px"
-              />
-              <img
-                class="shopify"
-                src="images/shopify_glyph.svg"
-                alt="shopify"
-                width="50px"
-                height="50px"
-              />
-              <img
-                class="wordpress"
-                src="images/wordpress-square-logo.png"
-                alt="wordpress logo"
-                width="50px"
-                height="50px"
-              />
-              <i class="fab fa-npm"></i>
-            </div>
-            <div data-aos="fade-up">
-              <i class="fab fa-react"></i>
+          <div class="col-md-12">
+            <h1 id="skills-header" class="header-highlight">Skills</h1>
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-12" id="skills-logos">
+                <div data-aos="fade-up">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3-alt"></i>
+                  <img
+                    class="jQuery"
+                    src="images/tiny-jQuery.png"
+                    alt="jQuery logo"
+                  />
+                  <i class="fab fa-js"></i>
+                  <i class="fab fa-node"></i>
+                </div>
+                <div data-aos="fade-up">
+                  <img
+                    class="sql"
+                    src="images/sql-file-format-symbol.png"
+                    alt="sql logo"
+                    width="50px"
+                    height="50px"
+                  />
+                  <img
+                    class="boostrap"
+                    src="images/bootstrap-solid.svg"
+                    alt="bootstrap logo"
+                    width="50px"
+                    height="50px"
+                  />
+                  <img
+                    class="api"
+                    src="images/api.png"
+                    alt="api"
+                    width="50px"
+                    height="50px"
+                  />
+                  <img
+                    class="shopify"
+                    src="images/shopify_glyph.svg"
+                    alt="shopify"
+                    width="50px"
+                    height="50px"
+                  />
+                  <img
+                    class="wordpress"
+                    src="images/wordpress-square-logo.png"
+                    alt="wordpress logo"
+                    width="50px"
+                    height="50px"
+                  />
+                  <i class="fab fa-npm"></i>
+                </div>
+                <div data-aos="fade-up">
+                  <i class="fab fa-react"></i>
+                </div>
+              </div>
+              <div class="col-md-3"></div>
             </div>
           </div>
-          <div class="col-md-3"></div>
+        </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Portfolio Section -->
     <section id="portfolio" title="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-xs-12">
-            <h2 id="portfolio-header" data-aos="fade-in">Recent Projects</h2>
+            <p id="portfolio-header" data-aos="fade-in">
+              Recent Projects
+            </p>
             <div class="row border-top border-light">
               <div class="col-md-4 col-xs-12">
                 <div class="card border-dark" data-aos="fade-up">
@@ -284,6 +293,16 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials" title="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="testimonial-header">Testimonials</p>
           </div>
         </div>
       </div>

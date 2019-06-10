@@ -141,7 +141,7 @@ h3 {
 #skills-logos {
   background-color: rgba(113, 176, 183, 0.6);
   padding: 1rem;
-  margin: 0 !important;
+  margin: 45px;
 }
 
 /* Portfolio Section Styling */
@@ -157,6 +157,7 @@ h3 {
   font-size: 4rem;
   text-shadow: 2px 2px 5px #747488;
   text-align: center;
+  padding: 5px;
 }
 
 .card-title {
@@ -175,6 +176,24 @@ h3 {
 .card {
   perspective: 100px;
   margin: 1rem;
+}
+
+/* Testimonial Section Styling */
+.testimonials {
+  background-image: url("../images/lake-louise-me.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonial-header {
+  font-size: 4rem;
+  color: white;
+  font-style: bold;
+  font-family: "Rufina", serif;
+  padding: 5px;
+  text-shadow: 2px 2px 5px #747488;
 }
 
 /* About Section Styling */
