@@ -179,7 +179,7 @@ h3 {
 }
 
 /* Testimonial Section Styling */
-.testimonials {
+#testimonials {
   background-image: url("../images/lake-louise-me.JPG");
   background-size: cover;
   background-attachment: fixed;
@@ -194,6 +194,28 @@ h3 {
   font-family: "Rufina", serif;
   padding: 5px;
   text-shadow: 2px 2px 5px #747488;
+  text-align: center;
+}
+
+.quotes {
+  background-color: #72b1b8;
+  text-align: center;
+  border-radius: 1rem;
+  color: white;
+}
+
+.client-testimonial {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #2f2d36;
+  text-decoration: none;
 }
 
 /* About Section Styling */
