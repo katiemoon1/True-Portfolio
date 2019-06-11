@@ -38,7 +38,7 @@ section {
 
 /* Home Page Styling */
 #home {
-  background-image: url("../images/peyto-home.JPG");
+  background-image: url("../images/peyto-home-1200.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -275,7 +275,7 @@ footer {
 /* extra large devices */
 @media screen and (max-width: 1200px) {
   #home {
-    background-image: url("../images/peyto-home.JPG");
+    background-image: url("../images/peyto-home-1200.jpeg");
   }
 }
 
