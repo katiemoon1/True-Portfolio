@@ -27,6 +27,8 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   padding: 350px 0;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 auto;
   flex: 0 auto;
 }
 
@@ -51,6 +53,8 @@ section {
 
 /* Attribute Section Styling */
 #attributes {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 auto;
   flex: 0 auto;
   background-color: #ababb6;
   text-align: center;
@@ -105,8 +109,12 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 auto;
   flex: 0 auto;
   text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative;
   height: 100%;
@@ -129,6 +137,8 @@ h3 {
 
 /* Portfolio Section Styling */
 #portfolio {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 auto;
   flex: 0 auto;
   color: white;
   background-color: #747488;
@@ -218,8 +228,13 @@ a:hover {
 }
 
 #me {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-line-pack: center;
   align-content: center;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -232,6 +247,8 @@ a:hover {
 
 /* Contact Section Styling */
 #contact {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 auto;
   flex: 0 auto;
   color: white;
   background-color: #747488;
