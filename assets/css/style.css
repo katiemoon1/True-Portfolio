@@ -3,19 +3,60 @@ body,
 html {
   position: relative;
   scroll-behavior: smooth;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
 }
 
 p {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 100%;
+  font-weight: 300;
 }
 
 .nav-item {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 section {
   padding: 100px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 350%;
+  word-spacing: 3px;
+}
+
+h2 {
+  font-size: 300%;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #747488;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #72b1b8;
+  /* must specify content when using after pseudo class */
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 200%;
+  margin-bottom: 20px;
 }
 
 /* Home Page Styling */
@@ -34,21 +75,17 @@ section {
 }
 
 .name {
-  font-size: 4rem;
-  color: white;
-  font-style: bold;
-  font-family: "Rufina", serif;
+  font-weight: 700;
   text-shadow: 2px 2px 5px #747488;
   text-align: center;
   /* padding-left: inherit; */
 }
 
 .title {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  font-size: 1.5rem;
   text-shadow: 2px 2px 5px #747488;
   text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   /* padding-left: inherit; */
 }
 
@@ -61,22 +98,6 @@ section {
   text-align: center;
 }
 
-#attribute-header {
-  font-size: 4rem;
-  color: white;
-  font-style: bold;
-  font-family: "Rufina", serif;
-  padding: 5px;
-  text-shadow: 2px 2px 5px #747488;
-}
-
-h3 {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  font-style: bold;
-  font-size: 2rem;
-}
-
 #attribute-set {
   color: white;
   padding: 40px;
@@ -85,7 +106,6 @@ h3 {
 
 #experience {
   font-style: bold;
-  font-family: "Rufina", serif;
 }
 
 .rounded-circle {
@@ -123,10 +143,8 @@ h3 {
 }
 
 #skills-header {
-  font-size: 4rem;
   color: white;
   font-style: bold;
-  font-family: "Rufina", serif;
   padding: 5px;
   text-shadow: 2px 2px 5px #747488;
 }
@@ -145,11 +163,9 @@ h3 {
   color: white;
   background-color: #747488;
   font-style: bold;
-  font-family: "Rufina", serif;
 }
 
 #portfolio-header {
-  font-size: 4rem;
   text-shadow: 2px 2px 5px #747488;
   text-align: center;
   padding: 5px;
@@ -166,7 +182,7 @@ h3 {
   margin: auto;
 }
 
-h2 {
+.proj-info h3 {
   color: #72b1b8;
 }
 
@@ -195,10 +211,7 @@ hr {
 }
 
 .testimonial-header {
-  font-size: 4rem;
-  color: white;
   font-style: bold;
-  font-family: "Rufina", serif;
   padding: 5px;
   text-shadow: 2px 2px 5px #747488;
   text-align: center;
@@ -264,9 +277,8 @@ button {
   border-color: #72b1b8;
 }
 
-h4 {
-  font-style: bold;
-  font-family: "Rufina", serif;
+.about-me-text h3 {
+  color: #72b1b8;
 }
 
 /* Footer Styling */
@@ -278,7 +290,7 @@ footer {
 }
 
 #find-me {
-  font-size: 1.5rem;
+  font-size: 120%;
 }
 
 /* Media Queries */
@@ -288,6 +300,10 @@ footer {
 } */
 /* extra large devices */
 @media screen and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+
   #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("../images/peyto-home-1200-min.jpeg");
@@ -296,6 +312,10 @@ footer {
 
 /* large screens */
 @media screen and (max-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+
   #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("../images/peyto-home-1200-min.jpeg");
@@ -304,6 +324,10 @@ footer {
 
 /* tablets */
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
   #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("../images/peyto-home-1200-min.jpeg");
