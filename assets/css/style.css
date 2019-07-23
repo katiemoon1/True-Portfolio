@@ -21,7 +21,7 @@ section {
 
 /* Home Page Styling */
 #home {
-  background-image: url("../images/peyto-home-1200.jpeg");
+  background-image: url("../images/peyto-home-1200-min.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -104,7 +104,7 @@ h3 {
 
 /* Skills Section Styling */
 #skills {
-  background-image: url("../images/lake-louise-me.JPG");
+  background-image: url("../images/lake-louise-me-min.JPG");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -183,7 +183,7 @@ hr {
 
 /* Testimonial Section Styling */
 #testimonials {
-  background-image: url("../images/lake-louise-me.JPG");
+  background-image: url("../images/lake-louise-me-min.JPG");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -285,35 +285,35 @@ footer {
 /* extra large devices */
 @media screen and (max-width: 1200px) {
   #home {
-    background-image: url("../images/peyto-home-1200.jpeg");
+    background-image: url("../images/peyto-home-1200-min.jpeg");
   }
 }
 
 /* large screens */
 @media screen and (max-width: 992px) {
   #home {
-    background-image: url("../images/peyto-home-1200.jpeg");
+    background-image: url("../images/peyto-home-1200-min.jpeg");
   }
 }
 
 /* tablets */
 @media screen and (max-width: 768px) {
   #home {
-    background-image: url("../images/peyto-home-1200.jpeg");
+    background-image: url("../images/peyto-home-1200-min.jpeg");
   }
 }
 
 /* small devices */
 @media screen and (max-width: 576px) {
   #home {
-    background-image: url("../images/peyto-home-768.jpeg");
+    background-image: url("../images/peyto-home-768-min.jpeg");
   }
 }
 
 /* small devices */
 @media all and (max-width: 425px) {
   #home {
-    background-image: url("../images/peyto-home-768.jpeg");
+    background-image: url("../images/peyto-home-768-min.jpeg");
   }
 
   #card-holder {
